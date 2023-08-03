@@ -1,0 +1,33 @@
+   __            __  __
+  / /  ___   __ _\ \/ /
+ / /  / _ \ / _` |\  / 
+/ /__| (_) | (_| |/  \ 
+\____/\___/ \__, /_/\_\
+            |___/    (v2.0.23)
+Log Express : making logging easy and efficient!
+
+        TimeStamp          |     Level / StackTrace    |     Messages
+[2023-08-03 16:11:44.761] [TRACE] [com.logger.test.Main:13] - This is a trace message.
+[2023-08-03 16:11:44.777] [DEBUG] [com.logger.test.Main:14] - This is a debug message.
+[2023-08-03 16:11:44.777] [INFO ] [com.logger.test.Main:15] - This is an info message.
+[2023-08-03 16:11:44.777] [WARN ] [com.logger.test.Main:16] - This is a warning message
+[2023-08-03 16:11:44.793] [ERROR] [com.logger.test.Main:17] - This is a error message
+[2023-08-03 16:11:44.793] [ERROR] [com.logger.test.Main:18] - java.lang.Exception: This is error printStacktrace message of exception
+	at com.logger.test.Main.main(Main.java:18)
+
+[2023-08-03 16:11:44.793] [FATAL] [com.logger.test.Main:19] - This is a fatal message
+[2023-08-03 16:11:44.793] [WARN ] [com.logger.test.Main:26] - This is a warning message after changing log level.
+[2023-08-03 16:11:44.793] [ERROR] [com.logger.test.Main:27] - This is an error message after changing log level.
+[2023-08-03 16:11:44.793] [FATAL] [com.logger.test.Main:28] - This is an fatal message after changing log level.
+[2023-08-03 16:11:46.586] [TRACE] [com.logger.test.Main:13] - This is a trace message.
+[2023-08-03 16:11:46.602] [DEBUG] [com.logger.test.Main:14] - This is a debug message.
+[2023-08-03 16:11:46.602] [INFO ] [com.logger.test.Main:15] - This is an info message.
+[2023-08-03 16:11:46.602] [WARN ] [com.logger.test.Main:16] - This is a warning message
+[2023-08-03 16:11:46.602] [ERROR] [com.logger.test.Main:17] - This is a error message
+[2023-08-03 16:11:46.602] [ERROR] [com.logger.test.Main:30] - java.lang.IOException: This is error printStacktrace message of IOException
+	at com.logger.test.Main.main(Main.java:18)
+
+[2023-08-03 16:11:46.602] [FATAL] [com.logger.test.Main:19] - This is a fatal message
+[2023-08-03 16:11:46.602] [WARN ] [com.logger.test.Main:26] - This is a warning message after changing log level.
+[2023-08-03 16:11:46.602] [ERROR] [com.logger.test.Main:27] - This is an error message after changing log level.
+[2023-08-03 16:11:46.602] [FATAL] [com.logger.test.Main:28] - This is an fatal message after changing log level.
